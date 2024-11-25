@@ -8,12 +8,12 @@ package com.mycompany.teladlogin;
  *
  * @author pedro
  */
-public class telarecovery extends javax.swing.JFrame {
+public class TelaRecovery extends javax.swing.JFrame {
 
     /**
      * Creates new form telarecovery
      */
-    public telarecovery() {
+    public TelaRecovery() {
         initComponents();
     }
 
@@ -28,7 +28,6 @@ public class telarecovery extends javax.swing.JFrame {
 
         TITULO_EMAIL_LOGIN = new javax.swing.JLabel();
         TITULO_LOGIN_SIG2 = new javax.swing.JLabel();
-        LOGO_BOMPAO_LOGIN = new javax.swing.JLabel();
         TITULO_BOMPAO = new javax.swing.JLabel();
         BT_ENTRAR_LOGIN = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
@@ -43,7 +42,6 @@ public class telarecovery extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         TITULO_EMAIL_LOGIN2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        IMG_BACKGRUND_LOGIN = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -59,10 +57,6 @@ public class telarecovery extends javax.swing.JFrame {
         TITULO_LOGIN_SIG2.setForeground(new java.awt.Color(255, 243, 211));
         TITULO_LOGIN_SIG2.setText("SISTEMA INTEGRADO DE GESTÃO");
         getContentPane().add(TITULO_LOGIN_SIG2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 110, 410, 30));
-
-        LOGO_BOMPAO_LOGIN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/1730577049734-d53051c6-8d4a-44e0-9eec-101dc7bcf838_1_2-removebg (1).png"))); // NOI18N
-        LOGO_BOMPAO_LOGIN.setText("jLabel9");
-        getContentPane().add(LOGO_BOMPAO_LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -10, 180, -1));
 
         TITULO_BOMPAO.setBackground(new java.awt.Color(0, 0, 0));
         TITULO_BOMPAO.setFont(new java.awt.Font("Arial", 1, 100)); // NOI18N
@@ -154,10 +148,6 @@ public class telarecovery extends javax.swing.JFrame {
         jButton1.setText("Voltar para tela incial");
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 20, -1, -1));
 
-        IMG_BACKGRUND_LOGIN.setForeground(new java.awt.Color(230, 25, 117));
-        IMG_BACKGRUND_LOGIN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Home.png.png"))); // NOI18N
-        getContentPane().add(IMG_BACKGRUND_LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1320, 740));
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -190,20 +180,21 @@ public class telarecovery extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(telarecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaRecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(telarecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaRecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(telarecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaRecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(telarecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaRecovery.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new telarecovery().setVisible(true);
+                new TelaRecovery().setVisible(true);
             }
         });
     }
@@ -212,8 +203,6 @@ public class telarecovery extends javax.swing.JFrame {
     private javax.swing.JButton BT_ENTRAR_LOGIN;
     private javax.swing.JButton BT_ENTRAR_LOGIN1;
     private javax.swing.JButton BT_ENTRAR_LOGIN2;
-    private javax.swing.JLabel IMG_BACKGRUND_LOGIN;
-    private javax.swing.JLabel LOGO_BOMPAO_LOGIN;
     private javax.swing.JLabel TITULO_BOMPAO;
     private javax.swing.JLabel TITULO_EMAIL_LOGIN;
     private javax.swing.JLabel TITULO_EMAIL_LOGIN1;
